@@ -1,0 +1,251 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    width:100%;
+    position: fixed;
+    height: 70px;
+    z-index: 1  ;
+   
+}
+.navMain{
+    flex: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    background-color: yellow;
+    
+}
+.navFirst {   
+    display: flex;
+    flex: 30%;
+    justify-content: flex-start ;
+    align-items: center;
+
+}
+.navFirst img{
+    width: 40px;
+    height: 45px;
+}
+.navFirst .navSearch{
+    background-color: white;  
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+.navSearchContent{
+    padding-left: 20px;
+}
+.navFirst .navSearch input{
+    outline: none;
+    border: none;
+    width: 100px;
+}
+.navMid{
+    flex: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navLast{
+    flex: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.navInstall{
+    display:none;
+}
+
+
+.navLastbtn1 button{
+    padding: 10px 10px;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    font-size:medium;
+    
+    
+
+}
+.navLastbtn1{
+    padding-left: 10px;
+    font-size: small;
+}
+.navLastbtn2{
+    padding-left: 10px;
+    font-size: small;
+}
+.navLastbtn2 button{
+    padding: 10px 10px;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    font-size:medium;
+    padding-left: 20px;
+}
+
+.menuButton{
+    background-color: white;
+
+    
+    border-radius: 100%;
+    padding: 10px;
+}
+.menuButton i{
+    font-size: 20px;
+}
+/* .navLast, .menuButton i{
+    font-size: 5x;
+} */
+
+.navMid img{
+    width:45px;
+    size: 2px;
+    
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* background-color: black; */
+    border: 2px solid black;
+}
+.stories{
+    display: flex;
+    flex-direction: column;
+}
+
+.maincontent{
+    display: flex;
+    /* flex-direction: column; */
+    flex: 100%;
+    background-color: yellow;
+}
+.maincontent1{
+    display: flex;
+    flex-direction: column;
+    flex:50%;
+    padding: 6%;
+    
+}
+.mainPara1
+{
+   
+    padding: 15px;
+    /* line-gap-override: 50px; */
+}
+ .mainPara2{
+    
+    padding: 15px;
+ }
+ .mainHead h1{
+    font-size:58px;
+    font-weight: bolder;  
+ }
+ .mainPara1 p{
+    font-size: 25px;
+ }
+ .mainPara2 p{
+    font-size: 23px;
+    font-weight:100px;
+ }
+ .maincontent2{
+    flex: 50%;
+ }
+ .maincontent2 img{
+    width: 90%;
+
+ }
+ .logChat{
+    display: flex;
+    flex-direction: row;
+    width:36%;
+    background-color: black;
+    justify-content: center;
+    height: 33px;
+    align-items: center;
+    border-radius: 50px;
+ }
+ .logChat i{
+    color: white;
+    size: 4px;
+    margin-right: 7px;
+ }
+ .logChat h1 {
+    color: white;
+    font-size: medium;
+    font-weight: 2px;
+
+    
+ }
+.snaplistMain{
+    display: flex;
+    flex: 100%;
+    /* text-decoration: none;; */
+    justify-content: space-around;
+    background-color:rgb(242, 245, 249);
+     line-height: 23px; 
+     padding-top: 25px;;
+     padding-bottom: 25px;
+     
+    
+}
+.snapList1{
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+
+   
+}
+.languaeSelector{
+    display:flex;
+}
+.snapList2{
+    display: flex;
+    flex-direction: column;
+}
+.snapList3{
+    display: flex;
+    flex-direction: column;
+}
+.snapList4{
+    display: flex;
+    flex-direction: column;
+}
+ .snaplistMain ul{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.footerDiv{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(38, 36, 36);
+    justify-content: flex-start;
+    align-items: center;
+}
+.footerDiv p{
+    color: white;
+    font-size: small;
+    padding: 20px;
+}
+
+/* @media (min-width:950px) and(max-width:1700px){
+    .hidemedia{
+        display: none;
+    }
+} */

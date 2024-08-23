@@ -1,0 +1,58 @@
+@media(max-width:1060px){
+    .navFirst{
+        display: flex;
+        flex: 30%;
+    }
+    .navMid{
+        display: flex;
+        flex: 40%;
+    }
+    .navLast
+    { 
+        flex:30%;
+    }
+    .menuButton i{
+        font-size: 20px;
+     }
+}
+/* @media(max-width:780px){
+    .navLast{
+        display: none;
+    }
+    .navInstall{
+        display: block;
+    }
+} */
+@media(max-width:1000px)
+{
+    .mainHead h1{
+        font-size: 48px;
+    }
+    .mainPara1 p,.mainPara2 p{
+        
+        font-size: 20px;
+    }
+    .logChat{
+        width: 50%;
+    }
+    .menuButton button ,.navLastbtn1 button ,.navLastbtn2 button{
+        padding: 8px;
+        font-size: smaller;
+        
+    }
+}
+
+
+/* @media (max-width:900px){
+    .hide{
+        display: none;
+    }
+} */
+/* mobnav */
+/* @media(max-width:550){
+    .mobnavFirst{
+        padding: 35px;
+        margin-left: 10%;
+        
+    }
+} */

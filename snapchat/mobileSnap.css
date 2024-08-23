@@ -1,0 +1,419 @@
+.mobileSnap {
+    /* height: 50px; */
+
+    width: 100%;
+}
+
+#check {
+    display: none;
+}
+
+.mobNav {
+    display: flex;
+    flex: 100%;
+    flex-direction: row;
+    background-color: yellow;
+}
+
+.mobnavFirst {
+    display: flex;
+    flex: 30%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
+
+
+.menuList ul {
+
+    display: none;
+}
+
+.menuList ul li {
+
+    padding: 10px 20px;
+}
+
+#check:checked~.mobNav .mobnavFirst .menuList ul {
+    display: block;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: yellow;
+}
+
+
+.circle1 {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 15px;
+}
+
+.circle2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.mobnavMid {
+    display: flex;
+    flex: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobnavLast {
+    display: flex;
+    flex: 30%;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.mobnavLast p {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.mobMain {
+    display: flex;
+    flex: 100%;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 30px;
+    padding: 40px 0px;
+}
+
+.mobMain h1 {
+    font-size: 26px;
+}
+
+.mobMain P {
+    padding: 5%;
+}
+
+.download {
+    width: 26%;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+
+    text-align: center;
+
+}
+
+.mobMain .icon2 {
+    font-size: larger;
+    font-weight: bolder;
+    padding: 3%;
+}
+
+.mobMain .para {
+    padding: 0;
+}
+
+/* ``````````````````````````````````````````` */
+.snapVideo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: yellow;
+    align-items: center;
+}
+
+.video1 {
+    border-radius: 10%;
+
+    height: 250px;
+    object-fit: contain;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    position: relative;
+
+
+}
+.video1 .videoTsxt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Text color */
+    font-size: 24px; /* Adjust as needed */
+    font-weight: bold;
+    text-align: center;
+}
+.video2 {
+    border-radius: 10%;
+
+    height: 250px;
+    object-fit: contain;
+    width: 80%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    position: relative;
+
+
+}
+.video2 .videoTsxt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Text color */
+    font-size: 24px; /* Adjust as needed */
+    font-weight: bold;
+    text-align: center;
+}
+.video3{
+    border-radius: 10%;
+
+    height: 250px;
+    object-fit: contain;
+    width: 80%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    position: relative;
+
+
+}
+.video3 .videoTsxt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Text color */
+    font-size: 24px; /* Adjust as needed */
+    font-weight: bold;
+    text-align: center;
+}
+.video4{
+    border-radius: 10%;
+
+    height: 250px;
+    object-fit: contain;
+    width: 80%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    position: relative;
+
+
+}
+.video4 .videoTsxt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Text color */
+    font-size: 24px; /* Adjust as needed */
+    font-weight: bold;
+    text-align: center;
+    w
+}
+.videoTsxt p{
+    font-size: larger;
+}
+.videoButton{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: yellow;
+    border: none;
+}
+.video4 {
+    
+
+    height: 250px;
+    object-fit: contain;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+
+}
+
+.video2 {
+    
+
+    height: 250px;
+    object-fit: contain;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin: 5Px;
+
+
+}
+
+.video3 {
+    border-radius: 20px;
+
+    height: 250px;
+    object-fit: contain;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+
+}
+
+
+
+
+/* --------------iconDiv----------------- */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.icon {
+    background-color: white;
+    display: flex;
+    flex: 100%;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(0%);
+
+}
+
+.icon img {
+    width: 20px;
+    filter: grayscale(100%);
+}
+
+.icon .icon2 {
+    padding-left: 10px;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    filter: grayscale(100%);
+}
+
+.icon .icon2 .iconName {
+    padding-left: 2px;
+    padding-right: 4px;
+    ;
+}
+
+/* -------------openSnap--------------- */
+.openSnap{
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+.openSnap h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 20px;
+
+}
+.openSnap button{
+    padding:10 20px;
+    margin-top: 10px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 30%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.openSnap p{
+    padding: 5px;
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+/* --------LastNav------*/
+.lastNav {
+
+    display: flex;
+    /* flex:100%; */
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.lastNav button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: yellow;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------important------------------------------ */
+
+
+@media(max-width:1550px) {
+    .hide {
+        display: block;
+    }
+
+    .hidemedia {
+        display: none;
+    }
+}
+
+@media(max-width:860px) {
+    .hide {
+        display: none;
+    }
+
+    .hidemedia {
+        display: block;
+    }
+}
